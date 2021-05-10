@@ -1,0 +1,42 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV= production & node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthik-r-b/xencov.git"
+  },
+  "author": "karthik",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/karthik-r-b/xencov/issues"
+  },
+  "homepage": "https://github.com/karthik-r-b/xencov#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "csv": "^5.3.2",
+    "csv-parser": "^3.0.0",
+    "csv-stream": "^0.2.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "morgan": "^1.10.0",
+    "node-xlsx": "^0.16.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.4.0",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "nodemon": "^2.0.7"
+  }
+}
